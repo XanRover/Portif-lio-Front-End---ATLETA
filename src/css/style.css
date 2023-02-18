@@ -55,7 +55,10 @@ header a#name-top:hover {
 
 
 main section#main {
+    display: flex;
+    align-items: center;
     color: #fff;
+    height: 100vh;
 }
 
 #main .font-title {
