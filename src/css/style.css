@@ -53,20 +53,9 @@ header a#name-top:hover {
     perspective: 400px;
 }
 
-#main .background img {
-    position: absolute;
-    top: -70px;
-    left: 70px;
-    z-index: -9999;
-}
-
-#main {
-    margin-top: 100px;
-}
 
 main section#main {
     color: #fff;
-    z-index: 9;
 }
 
 #main .font-title {
@@ -94,7 +83,7 @@ main section#main {
 
 i.menu-mobile {
     color: #fff;
-    background-color: #252c90;
+    background-color: #38394a;
     right: 1rem;
     top: 1rem;
     font-size: 1.5rem;
@@ -113,12 +102,14 @@ i.menu-mobile {
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767.8px) {
     i.menu-mobile {
         display: flex;
         margin-top: 20px;
     }
-
+    .img-sobre{
+        display: none;
+    }
     #main .font-title {
         font-size: 2.5rem;
     }
@@ -140,31 +131,7 @@ i.menu-mobile {
 /*Album**/
 section.bg-album {
     background-image: linear-gradient(to bottom, #133a3a, #AEEEEE);
-
 }
-
-.img-border {
-    border: 3px solid #000;
-    border-radius: 10px;
-    align-self: center;
-}
-
-.radius {
-    margin: 10px;
-    border-radius: 20px;
-}
-
-.scroll {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    position: relative;
-    display: grid;
-    bottom: 50px;
-    height: 600px;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px
-}
-
 
 #Album-Pan,
 #Album-Brasileiro,
@@ -235,13 +202,6 @@ section.bg-album {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-img.img-cover {
-    width: 100vw;
-    height: 180px;
-    box-shadow: 4px 4px 5px #000;
-}
-
 
 #galeria {
     position: fixed;
