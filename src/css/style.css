@@ -155,7 +155,10 @@ section.bg-album {
     height: 200px;
     width: 200px;
 }
-
+.imgs:hover{
+    transform: scale(1.07);
+    transition: all .8s;
+}
 #Album-Pan:hover,
 #Album-Brasileiro:hover,
 #Album-Seletiva:hover,
@@ -164,6 +167,7 @@ section.bg-album {
     transform: scale(1.07);
     rotate: -3deg;
     transition: all .8s;
+    cursor: pointer;
 }
 
 #Album-Pan {
