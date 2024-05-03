@@ -24,4 +24,3 @@ Para conferir meu portfólio online e saber mais sobre minha trajetória e conqu
 
 
 
-## Como Usar
