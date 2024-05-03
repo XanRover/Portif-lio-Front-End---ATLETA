@@ -23,19 +23,3 @@ Destaco-me especialmente pelo título no Pan-Americano de 2022 e pela participa�
 Para conferir meu portfólio online e saber mais sobre minha trajetória e conquistas, acesse [este link]([https://exemplo.com](https://xanrover.github.io/Portif-lio-Front-End---ATLETA/)).
 
 ## Como Usar
-
-1. Clone este repositório:
-
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
-Neste exemplo:
-
-- Utilizei cabeçalhos (com `#`) para títulos.
-- Liste as tecnologias utilizadas com marcadores (`-`).
-- Incluí links para referências externas.
-- Adicionei instruções sobre como clonar e visualizar o projeto localmente.
-- Incluí uma seção opcional de capturas de tela para mostrar visualmente o projeto.
-- Finalizei com informações sobre autoria e licença.
-
-Você pode personalizar esse modelo de README.md de acordo com as informações específicas do seu projeto e suas preferências estilísticas. Lembre-se de substituir os placeholders como `https://exemplo.com`, `seu-usuario`, `nome-do-repositorio`, `screenshot1.png`, `screenshot2.png`, entre outros, com os dados reais do seu projeto.
